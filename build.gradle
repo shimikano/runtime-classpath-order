@@ -1,0 +1,16 @@
+plugins {
+  id 'java-library'
+}
+
+test {
+  testLogging.showStandardStreams = true
+}
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  implementation 'com.google.guava:guava:23.0'
+  testImplementation 'junit:junit:4.12'
+}
